@@ -1,0 +1,21 @@
+# git + deps
+.git
+node_modules
+
+# logs / temp
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.tmp
+.DS_Store
+Thumbs.db
+
+# build artifacts
+/dist
+/build
+/.cache
+/.parcel-cache
+/.next
+/.vite
+coverage
